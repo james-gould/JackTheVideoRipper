@@ -14,12 +14,7 @@ namespace JackTheVideoRipper
 
         public static bool isInstalled()
         {
-            if (File.Exists(binPath))
-            {
-                return true;
-            }
-
-            return false;
+            return File.Exists(binPath));
         }
     }
 }
